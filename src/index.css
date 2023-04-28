@@ -1,0 +1,23 @@
+@import "tailwindcss/base";
+@import "tailwindcss/utilities";
+@import "tailwindcss/components";
+@import url("https://fonts.googleapis.com/css2?family=Antonio&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #070724;
+  background-image: url(../assets/background-stars.svg);
+
+  padding-bottom: 67px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
